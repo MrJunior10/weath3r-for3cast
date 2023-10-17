@@ -13,13 +13,9 @@ st.title(" 📅 WEATHER FORECASTER 🌥️ ☔ ")
 
 col1, mid, col2 = st.beta_columns([80, 5, 140])
 with col1:
-    st.write('## 📌 ️MADE BY - ATHERV PATIL')
+    st.write('## PROJECT BY SOUVICK BOURI')
 with col2:
     st.image('india.jpg', width=50)
-
-st.markdown("### [GITHUB](https://github.com/ColonelAVP) | [INSTAGRAM](https://www.instagram.com/athervvpatil/) | ["
-            "TWITTER](https://twitter.com/ColonelAVP_) | [LINKEDIN]("
-            "https://www.linkedin.com/in/atherv-patil-4a86691b1/)")
 st.header("🌐 Enter the name of City and Select Temperature Unit")
 place = st.text_input("NAME OF THE CITY 🌆 ", " ")
 unit = st.selectbox(" SELECT TEMPERATURE UNIT 🌡 ", ("Celsius", "Fahrenheit"))
